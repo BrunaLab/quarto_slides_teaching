@@ -1,9 +1,21 @@
 ---
-title: "Introduction"
-output: 
-    html_document:
-        toc: TRUE
-        toc_float: TRUE
+title: ' '
+author: "The Bruna Lab - University of Florida"
+date: "updated: `r Sys.Date()`"
+header-includes:
+   - \usepackage[default]{sourcesanspro}
+   - \usepackage[T1]{fontenc}
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+output:
+  # pdf_document: 
+  # html_document: 
+  #   df_print: paged
+  rmdformats::robobook: default
+  
 ---
 
 ```{r setup, include=FALSE,echo=FALSE,message = FALSE,warning=FALSE}
@@ -21,7 +33,7 @@ htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 <!-- <link rel="stylesheet" href="styles.css" type="text/css"> -->
 <!-- <link rel="stylesheet" href="academicons.min.css"/> -->
 <!-- Webpage tutorial: http://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html  -->
-
+![ ](./brunaLOGO.png)
 
 # Level 1. 
 
